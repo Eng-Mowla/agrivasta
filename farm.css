@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "montserrat";
+}
+.header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 20px 60px ;
+    align-items: center;
+
+
+}
+.header ul {
+    display: flex;
+    gap: 60px;
+    font-size: 30px;
+    list-style: none;
+}
+.loginBtn {
+    border: none;
+    border-radius: 12px;
+    padding: 14px 50px;
+    font-size: 30px;
+    color: white;
+    background-color: #204E51;
+}
+.signBtn {
+    border: 2px solid #204E51;
+    border-radius: 12px;
+    padding: 11px 30px;
+    font-size: 30px;
+    color: #204E51;
+    margin-left: 10px;
+    
+}
+.hero{
+    height: 550px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(https://images.pexels.com/photos/1443867/pexels-photo-1443867.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: 100% 550px;
+    text-align: center;
+ 
+
+}
+.hero h1 {
+    padding-top: 100px;
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: white;
+}
+.hero p {
+    margin-bottom: 40px;
+    color: white;
+}
+#learnbtn {
+    background-color: transparent;
+    color: white;
+    border: 2px  white solid;
+}
+.passion-left, .passion-right{
+    width: 500px;
+}
+.passion-parent {
+    margin-top: 130px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #caf0f8;
+}
+.passion-right img{
+    width: 500px;
+    height: 550px;
+    border-radius: 20px;
+}
+.down {
+    width: 200px;
+    height: 55px;
+    background-color:white;
+    border-radius: 12px;
+    position: absolute;
+    right: 225px;
+    bottom: -770px;
+    
+    
+}
+.down h1 {
+    left: 15px;
+    bottom: 10px;
+    position: absolute;
+}
+
+
+
+#btnn {
+    margin-top: 6px;
+}
+.passion-left h1{
+    font-size: 60px;
+    color: #204E51;
+}
+.passion-left p {
+    margin-bottom:20px;
+    
+    font-size: 20px;
+}
+.service1 img {
+    padding-top: 50px;
+}
+.service1 {
+    border-radius: 22px;
+    text-align: center;
+    background-color: #caf0f8;
+    margin: 10px;
+    width: 280px;
+    height: 280px;
+}
+.service-parent {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+.service {
+    text-align: center;
+}
+.product1 {
+    border-radius: 22px;
+    width: 100%;
+    height:500px ;
+    background-color: #caf0f8;
+    margin: 18px;
+    
+}
+.product-parent {
+    margin: 30px 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    column-gap: 30px;
+}
+.product img {
+    margin-top: 30px;
+    width: 200px;
+    height: 190PX;
+    border-radius: 18px;
+}
+
+.product{
+    text-align: center;
+    margin: 100px 2px;
+
+}
+.product1 h1 {
+    font-size: 70px;
+
+}
+.product h1{
+    font-size: 40px;
+    padding: 20px 1px;
+}
+.product1 p {
+    padding: 20px;
+    
+}
+.sustain {
+    padding: 30px;
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: 100% 470px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/39511/purple-grapes-vineyard-napa-valley-napa-vineyard-39511.jpeg);
+    color: white;
+
+}
+.sustain h1 {
+    margin-bottom: 50px;
+    font-size: 75px;
+}
+.benefit-right {
+    width: 600px;
+    height: 620px;
+    color: white;
+    background-color: #204E51;
+    border-radius: 22px;
+}
+.benefit-parent{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.benefit-left h1 {
+    font-size: 70px;
+}
+.benefit-left{
+    margin-top: 100px;
+    width: 490px;
+    
+    
+}
+.benefit-left p{
+    line-height: 2;
+
+}
+.icon-parent {
+    gap: 40px;
+    margin-top: 60px;
+    margin-left: 60px;
+    display: flex;
+}
+.benefit-right {
+    padding: 50px 20px;
+    gap: 30px;
+}
+.benefit-right i {
+    padding-top: 15px;
+    font-size:40px ;
+}
+
+.testi-parent {
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.testi-parent h1{
+    font-size: 72px;
+    color: #204E51;
+}
+.testi-parent p {
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.blog-parent {
+    text-align: center;
+}
+.blog-parent h1 {
+    font-size: 72px;
+    color: #204E51;
+
+}
+.blog-parent p{
+    font-size: 20px;
+    line-height: 24px;
+}
+.sawir-parent{
+    display: flex;
+    padding-left: 150px;
+}
+.ciyaal1 img {
+    width: 380px;
+    height: 470px;
+    border-radius: 20px;
+}
+ 
+
+.salka-parent {
+    background-color: #204E51;
+    width: 100%;
+    height: 586px;
+    padding: 150px 84px;
+    color: white;
+    
+    
+    
+}
+.salka-parent p{
+    font-size: 20px;
+
+}
+.salka-parent {
+    display: flex;
+}
+
+.salka-parent h1 {
+    padding-bottom: 15px;
+    font-size: 36px;
+
+
+}
+.cunug1 i {
+    display: flex;
+}
+
+.cunug-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cunug2-hooyadood{
+    display: flex;
+    padding-left: 400px;
+    gap: 80px;
+}
+.cunug2-hooyadood h1 {
+    font-size: 28px;
+
+    
+}
+
+.cunug1 {
+    display: flex;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+
+.background-parent {
+    
+    width: 1060px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: #204E51;
+    margin-left:300px;
+}
+.dhaxda-left img {
+    border-radius: 20px;
+    width: 300px;
+    padding: 30px 50px;
+    
+}
+#menuIcon {
+    display: none;
+}
+@media screen and ( max-width: 600px){
+    .header ul {
+        display: none;
+    }
+    .btn {
+        display: none;
+    }
+    #menuIcon {
+        display: block;
+        font-size: 40px;
+    }
+    .header h1{
+        font-size: 24px;
+    }
+    .hero h1{
+        font-size: 30px;
+    }
+    .header{
+        padding: 12px;
+    }
+    .passion-parent{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .passion-left,.passion-right{
+        width: 300px;
+
+    }
+    .passion-right img{
+        margin-top: 30px;
+        width: 300px;
+    }
+    .passion-left h1{
+        font-size: 30px;
+    }
+    .service p{
+        margin: 50px 18px;
+        font-size: 16px;
+    }
+    .service-parent{
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+
+
+    .product-parent{
+        margin-left: 22px;
+        grid-template-columns: 300px;
+        gap: 50px;
+}
+.product h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+.product1{
+    margin: 0;
+}
+.sustain h1{
+    font-size: 30px;
+}
+.benefit-parent{
+    flex-direction: column;
+}
+.benefit-left h1{
+    font-size: 40px;
+}
+.benefit-left{
+    width: 300px;
+    margin: 30px;
+}
+.benefit-right{
+    width: 300px;
+    margin: 30px;
+}
+    
+
+.review-parent{
+    display: grid;
+    grid-template-columns: 80px 800px 80px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+}
+.review-left{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50%;
+}
+.review-left i{
+    font-size: 80px;
+    padding: 0px 15px;
+    color: white;
+}
+.review-right{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50%;
+}
+.review-right i{
+    font-size: 80px;
+    padding: 0px 15px;
+    color: white;
+}
+.review-center{
+    width: 800px;
+    height: 300px;
+    background-color: green;
+    border-radius: 12px;
+}
+.coment-parent{
+    font-size: 12px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.coment-parent h1{
+    font-size: 15px;
+}
+.review-parent{
+    gap: 20px;
+    justify-content: start;
+    grid-template-columns: 30px 200px 30px;
+}
+.coment-parent p{
+    padding-top: 8px;
+    font-size: 8px;
+
+}
+}
